@@ -1,0 +1,30 @@
+
+div {
+    border: solid 3px transparent;
+}
+
+div:hover {
+    border: solid 3px black;
+}
+
+#red {
+    background: red;
+}
+
+#green {
+    background: green;
+    height: 100px;
+    font: italic;
+}
+
+#blue {
+    background: blue;
+}
+
+#purple {
+    background: purple;
+}
+
+#yellow {
+    background: yellow;
+}
