@@ -1,0 +1,59 @@
+
+ol {
+  background: yellow;
+}
+
+.par {
+  color: green;
+}
+
+.impar {
+  text-transform: uppercase;
+}
+
+h1, h3 {
+  color: red;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+li {
+  font-size: 20px;
+}
+
+.negrito {
+  font-weight: 700;
+}
+
+.color {
+  color: blue;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  font-weight: 700;
+}
+
+#corstack:hover {
+  color: orange;
+}
+
+
+
+#cormdn:hover {
+  color: black;
+}
+
+#corsdev:hover {
+  color: yellow;
+}
+
+.colorw3:hover {
+  color: green;
+}
