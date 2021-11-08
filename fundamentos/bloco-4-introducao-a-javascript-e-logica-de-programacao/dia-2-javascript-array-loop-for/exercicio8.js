@@ -1,0 +1,9 @@
+
+var numbers = [];
+
+
+for(var i = 1;i<26;i+=1) {
+    numbers.push(i)
+}
+
+console.log(typeofnumbers)
