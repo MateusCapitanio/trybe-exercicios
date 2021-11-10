@@ -3,7 +3,7 @@
 //consultei o link do stackoverflow pra resolver essa questao
 //https://pt.stackoverflow.com/questions/315456/fun%C3%A7%C3%A3o-para-checar-pal%C3%ADndromo
 
-var texto = 'reviver';
+var texto = 'arara';
 var status = true;
 
 function verificarTexto(texto,status) {

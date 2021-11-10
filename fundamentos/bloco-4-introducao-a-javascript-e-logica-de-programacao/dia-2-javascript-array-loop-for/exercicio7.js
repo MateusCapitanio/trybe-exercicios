@@ -6,7 +6,7 @@ var menor = numbers[0];
 
 for (var i of numbers) {
     if(i<menor) {
-        menor = i
+        menor = numbers[i]
     }
     console.log(`[Menor valor atual]: ${menor}`)
 }
