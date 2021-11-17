@@ -12,6 +12,7 @@ h1Tag.innerHTML = 'Exercício 5.1 - Javascript';
 
 document.querySelectorAll('p')[0].innerHTML = document.querySelectorAll('p')[0].innerText.toUpperCase()
 
+
 function valoresParagrafo() {
     let paragrafos = document.querySelectorAll('p')
     for(i=0;i<paragrafos.length;i+=1) {
@@ -20,4 +21,3 @@ function valoresParagrafo() {
 }
 
 valoresParagrafo()
-
