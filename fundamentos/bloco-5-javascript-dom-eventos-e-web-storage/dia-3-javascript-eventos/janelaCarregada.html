@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Bem-vindo</h1>
+    <button onclick="info()" >Mais informações</button>
+
+    <div id='pai'>
+        <p id='informacoes'></p>
+        <button onclick="deletar()" id='delete'>delete</button>
+    </div>
+    
+
+
+
+    <script>
+        //window.onload = jsCarregado //podemos identificar quando uma janela já foi carregada
+
+        
+
+        function info() {
+            var info = document.querySelector('#informacoes')
+            info.innerHTML = 'Aqui viram as informações de texto da página'
+        }
+
+
+        function deletar() {
+            var paragrafo = document.querySelector('#informacoes');
+            paragrafo.parentNode.removeChild(paragrafo)
+        }
+        
+        
+    </script>
+</body>
+</html>
