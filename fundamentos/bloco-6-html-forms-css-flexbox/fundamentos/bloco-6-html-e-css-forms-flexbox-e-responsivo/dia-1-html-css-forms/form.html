@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='./style.css'>
+    <script src='./script.js' defer></script>
+    <title>Document</title>
+</head>
+<body>
+
+    <main>
+        <form action="" method="GET">
+            <h1>Formulário</h1>
+            <fieldset>                
+                <legend><b>Dados do usuário</b></legend>
+                <strong><p>Nome:</p></strong>
+                <input 
+                    name="nome" 
+                    id="nome-usuario" 
+                    type='text'
+                    maxlength="40"
+                    autofocus
+                    required>
+                </input>
+                <strong><p>Email:</p></strong>
+                <input 
+                type="email"
+                maxlength="50"
+                required>
+                <strong><p>CPF:</p></strong>
+                <input 
+                type="text"
+                maxlength="11"
+                required>
+                <strong><p>Endereço:</p></strong>
+                <input 
+                type="text"
+                maxlength="200"
+                required>
+                <strong><p>Cidade:</p></strong>
+                <input 
+                type="text"
+                maxlength="28"
+                required>
+                <strong><p>Estado</p></strong>
+                <select>
+                    <option required selected value="rj">RJ</option>
+                    <option required value="sp">SP</option>
+                    <option required value="mg">MG</option>
+                    <option required value="mt">MT</option>
+                </select>
+                <label required for="casa"><input checked name='residencia' id='casa' type="radio">Casa</label>
+                <label required for="apt"><input name='residencia' id='apt' type="radio">Apartamento</label>
+            </fieldset>
+            <fieldset>
+                <legend><b>Resumo do currículo</b></legend>
+                <textarea style='resize: none;' required placeholder='Resumo do seu currículo...' maxlength='1000' name="resumo" id="resumo-curriculo" cols="30" rows="10"></textarea>
+                <strong><p>Cargo</p></strong>
+                <input maxlength="40" type="text">
+                <strong><p>Descrição do cargo</p></strong>
+                <textarea style='resize: none;' required placeholder='Descrição do cargo...' maxlength='500' name="descricao-cargo" id="descricao-cargo" cols="30" rows="10"></textarea>
+                <strong><p>Data de início</p></strong>
+                <input required type="date">
+                <button id='button-envia' type='submit'>Enviar formulário</button>
+            </fieldset>
+        </form>
+    </main>
+    
+    
+</body>
+</html>

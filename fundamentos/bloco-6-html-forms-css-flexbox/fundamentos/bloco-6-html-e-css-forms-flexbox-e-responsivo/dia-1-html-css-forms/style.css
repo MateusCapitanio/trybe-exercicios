@@ -1,0 +1,30 @@
+
+body {
+    font-family: roboto, sans-serif;
+    color: #23232e
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+fieldset {
+    width: 700px;
+    text-align: center;
+    margin: 20px;
+    border: solid 1px #23232e;
+    padding: 25px;
+}
+
+legend {
+    background: #23232e;
+    padding: 10px;
+    border-radius: 50px;
+    color: white;
+}
