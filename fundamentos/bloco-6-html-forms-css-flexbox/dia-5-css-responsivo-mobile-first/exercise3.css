@@ -1,0 +1,65 @@
+body {
+    margin: 20px;
+}
+h1 {
+    font-size: 25px;
+}
+h2 {
+
+}
+
+p {
+    font-size: 20px;
+}
+
+img {
+    max-width: 100%;
+    margin: 10px 0;
+}
+
+figure {
+    margin: 0;
+    font-size: 20px;
+}
+
+@media screen and (min-width: 800px) {
+    body {
+        background: rgb(255, 123, 123);
+        margin: 10px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 35px;
+    }
+
+    main {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    img {
+        margin: 10px;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+   body {
+       background: aquamarine;
+   }
+
+   h1 {
+    font-size: 50px;
+   }
+
+   h2 {
+    font-size: 45px;
+   }
+
+   p {
+    font-size: 30px;
+   }
+}
